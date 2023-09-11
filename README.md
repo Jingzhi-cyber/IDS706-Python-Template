@@ -3,6 +3,8 @@
 
 It sets up an environment on codespaces and uses Github Actions to run a Makefile for the following: make install, make test, make format, make lint.
 
+To set up the project, simply run make all or run make install and make test. 
+
 Here are the descriptions of the files: 
 
 .devcontainer includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
@@ -19,4 +21,4 @@ requirements.txt is to specify the dependencies (libraries and packages) require
 
 test_main.py is a test file for main.py that can successfully run in IDEs.
 
-main.py is a Python file.
+main.py is a Python file contains the main function.
